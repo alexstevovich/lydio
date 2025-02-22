@@ -1,0 +1,13 @@
+{
+  "name": "lydio",
+  "version": "0.0.0",
+  "description": "This package is reserved for the Lydio project.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexstevovich/lydio.git"
+  },
+  "keywords": [
+    "lydio",
+    "reserved"
+  ]
+}
