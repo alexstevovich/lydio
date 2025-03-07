@@ -64,6 +64,12 @@ logs/
 .cache/
 *.tmp
 
+# Filezord output
+filezord.txt
+
+# test
+test-files/
+
 # My Tools
 git-init.bat
 git-commit.bat

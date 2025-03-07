@@ -1,13 +1,45 @@
 {
   "name": "lydio",
-  "version": "0.0.0",
-  "description": "This package is reserved for the Lydio project.",
+  "version": "1.0.0",
+  "description": "Beautiful, modular, programmatic HTML — no framework needed.",
+  "author": "Alex Stevovich (https://alexstevovich.com)",
+  "homepage": "https://github.com/alexstevovich/lydio",
+  "lawfulgood":
+  { 
+    "quickjs":{
+      "path":"./src",
+      "mast":"./internal/mast.txt"
+    }
+  },
+  "scripts": {
+    "test": "npm run test:lydio",
+    "test:lydio": "node ./test/lydio.test.mjs",
+    "examples": "node ./examples/examples.mjs",
+    "preamble": "lawfulgood",
+    "zord": "filezord"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexstevovich/lydio.git"
+    "url": "https://github.com/alexstevovich/lydio.git"
   },
+  "license": "UNLICENSED",
+  "private": true,
   "keywords": [
     "lydio",
-    "reserved"
+    "html",
+    "generator",
+    "templating",
+    "javascript",
+    "fluent",
+    "dom",
+    "markup",
+    "structured-html",
+    "web",
+    "frontend",
+    "web-components",
+    "ui-library",
+    "tag-based",
+    "self-closing",
+    "dynamic-html"
   ]
 }
