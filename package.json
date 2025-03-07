@@ -1,45 +1,51 @@
 {
-  "name": "lydio",
-  "version": "1.0.0",
-  "description": "Beautiful, modular, programmatic HTML — no framework needed.",
-  "author": "Alex Stevovich (https://alexstevovich.com)",
-  "homepage": "https://github.com/alexstevovich/lydio",
-  "lawfulgood":
-  { 
-    "quickjs":{
-      "path":"./src",
-      "mast":"./internal/mast.txt"
+    "name": "lydio",
+    "version": "1.0.0",
+    "description": "Beautiful, modular, programmatic HTML — no framework needed.",
+    "author": "Alex Stevovich (https://alexstevovich.com)",
+    "homepage": "https://github.com/alexstevovich/lydio",
+    "scripts": {
+        "test": "vitest",
+        "preamble": "npx lawfulgood --quick ./src/ ./internal/.masthead",
+        "filezord": "npx filezord --write .",
+        "pretty": "npx prettier --write .",
+        "lint": "eslint ./src/",
+        "lint:fix": "eslint --fix ./src/",
+        "spell": "cspell \"**/*\"",
+        "lint:md": "markdownlint README.md CHANGELOG.md"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alexstevovich/lydio.git"
+    },
+    "license": "UNLICENSED",
+    "private": true,
+    "keywords": [
+        "lydio",
+        "html",
+        "generator",
+        "templating",
+        "javascript",
+        "fluent",
+        "dom",
+        "markup",
+        "structured-html",
+        "web",
+        "frontend",
+        "web-components",
+        "ui-library",
+        "tag-based",
+        "self-closing",
+        "dynamic-html"
+    ],
+    "devDependencies": {
+        "@eslint/js": "^9.22.0",
+        "cspell": "^8.17.5",
+        "eslint": "^9.21.0",
+        "eslint-plugin-prettier": "^5.2.3",
+        "markdownlint": "^0.37.4",
+        "markdownlint-cli": "^0.44.0",
+        "prettier": "^3.5.3",
+        "vitest": "^3.0.8"
     }
-  },
-  "scripts": {
-    "test": "npm run test:lydio",
-    "test:lydio": "node ./test/lydio.test.mjs",
-    "examples": "node ./examples/examples.mjs",
-    "preamble": "lawfulgood",
-    "zord": "filezord"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/alexstevovich/lydio.git"
-  },
-  "license": "UNLICENSED",
-  "private": true,
-  "keywords": [
-    "lydio",
-    "html",
-    "generator",
-    "templating",
-    "javascript",
-    "fluent",
-    "dom",
-    "markup",
-    "structured-html",
-    "web",
-    "frontend",
-    "web-components",
-    "ui-library",
-    "tag-based",
-    "self-closing",
-    "dynamic-html"
-  ]
 }

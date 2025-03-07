@@ -1,0 +1,24 @@
+{
+    "version": "0.2",
+    "language": "en",
+    "words": [
+        "premade",
+        "Lydio",
+        "Marle",
+        "xforms",
+        "setlocal",
+        "endlocal",
+        "frameset",
+        "zord",
+        "swapout",
+        "webp",
+        "DOCTYPES",
+        "Stevovich",
+        "lawfulgood",
+        "filezord",
+        "HTML",
+        "classnames",
+        "tagname"
+    ],
+    "ignorePaths": ["node_modules", "dist", "build"]
+}
