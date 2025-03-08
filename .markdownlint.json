@@ -1,0 +1,6 @@
+{
+    "default": true,
+    "MD013": { "line_length": 120 }, // Allow longer lines
+    "MD033": false, // Allow inline HTML
+    "MD041": false // Don't enforce first line as heading
+}

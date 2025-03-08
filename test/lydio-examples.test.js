@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { Tag } from '../src/index.mjs';
+import { Tag } from '../src/index.js';
 
 describe('Lydio Example Tests', () => {
     it('Basic Example', () => {

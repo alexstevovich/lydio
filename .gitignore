@@ -65,7 +65,7 @@ logs/
 *.tmp
 
 # Filezord output
-filezord.txt
+.zord
 
 # test
 test-files/

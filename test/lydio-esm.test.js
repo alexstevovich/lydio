@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { Tag, Leaf, Fragment } from '../src/index.mjs';
+import { Tag, Leaf, Fragment } from '../src/index.js';
 
 describe('Lydio HTML Tests', () => {
     it('Basic Tag Creation', () => {

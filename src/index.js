@@ -1,4 +1,4 @@
-/********************************************************
+/* *******************************************************
  * lydio
  *
  * Copyright (c) 2015-2025 Alex Stevovich.
@@ -6,19 +6,21 @@
  * @meta
  *
  * package_name: lydio
- * file_name: src/index.mjs
- * purpose: The core types and full functionality.
+ * file_name: src/index.js
+ * purpose: Core functionality and exports combined.
  *
  * @system
  *
- * generated_on: 2025-03-07T20:48:05.859Z
+ * generated_on: 2025-03-08T22:14:45.458Z
  * certified_version: 1.0.0
- * file_uuid: 7de0818b-6783-435d-9632-8b1519a4f921
- * file_size: 13358 bytes
- * file_hash: 136fa83b6a067ba7411c22d87fcf07b67677992269493c0e0623910f29ffd00a
- * mast_hash: 9bc9a09fbc6b54209c316997f41498e303c4cc0e4f31b6a940d9b9488739227b
+ * file_uuid: 5f33790f-f0ca-4d2b-a5b5-36f8896b4876
+ * file_size: 13448 bytes
+ * file_hash: 8fb2b80e48c0c514e432f7be1c4437420a07c79fb71116d745d9a248bd9beaa0
+ * mast_hash: 1f8c9a476fab3e712d86e110d1c3d3d6cda652ee88daeb13306ecc99186ad008
+ * generated_by: preamble on npm!
  *
- ********************************************************/
+ * [Preamble Metadata]
+ ******************************************************* */
 const Global = { xmlCompliantDefault: false };
 
 function defineCoreType(cls, type) {
