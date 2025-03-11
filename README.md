@@ -138,4 +138,7 @@ Each component can override `toMeaning()` to define its own output.
 This project is not open source. It is exposed to satisfy requirements related to my business.
 _Thank you for your understanding_
 
+Copyright © 2015-2025 Alex Stevovich. All Rights Reserved.
+No permission is granted to use, copy, modify, distribute, sublicense, or create derivative works of this software, in whole or in part, without explicit prior written permission from the copyright holder.
+
 See `LICENSE` and `TRADEMARK.md` for more.
