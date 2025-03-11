@@ -1,0 +1,28 @@
+*******************************************************
+ * {{GEN_PACKAGE_NAME}}
+ * 
+ * Copyright (c) 2015-{{GEN_FULL_YEAR}} Alex Stevovich. All Rights Reserved.
+ *
+ * No permission is granted to use, copy, modify, 
+ * distribute, sublicense, or create derivative works 
+ * of this software, in whole or in part, without explicit 
+ * prior written permission from the copyright holder.
+ *
+ * @meta
+ *
+ * package_name: {{GEN_PACKAGE_NAME}}
+ * file_name: {{GEN_FILE_NAME}}
+ * purpose: {{PURPOSE}}
+ *  
+ * @system
+ *
+ * generated_on: {{GEN_GENERATED_ON}}
+ * certified_version: {{GEN_CERTIFIED_VERSION}}
+ * file_uuid: {{GEN_FILE_UUID}}
+ * file_size: {{GEN_FILE_SIZE}}
+ * file_hash: {{GEN_FILE_HASH}}
+ * mast_hash: {{GEN_MAST_HASH}}
+ * generated_by: {{GEN_GENERATED_BY}}
+ *
+ * {{PREAMBLE_MARKER}}
+*******************************************************

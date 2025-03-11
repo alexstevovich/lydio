@@ -1,0 +1,63 @@
+{
+    "name": "lydio",
+    "version": "1.0.0",
+    "description": "Beautiful, modular, programmatic HTML — no framework needed.",
+    "exports": {
+        "import": "./src/index.js",
+        "require": "./gen/index.cjs"
+    },
+    "type": "module",
+    "files": [
+        "./src/",
+        "./gen"
+    ],
+    "homepage": "https://github.com/alexstevovich/lydio",
+    "scripts": {
+        "test": "vitest",
+        "tsify": "npx tsc --declaration --emitDeclarationOnly --outFile index.d.ts",
+        "preamble": "preamble --apply --dir ./src/",
+        "zord": "filezord --zord --dir ./ --id pkg:lydio",
+        "pretty": "npx prettier --write .",
+        "lint": "eslint ./src/",
+        "lint:fix": "eslint --fix ./src/",
+        "build": "npm run preamble && npm run pretty && npm run lint:fix && npm run tsify && node build.js && preamble --apply --dir ./gen/  && npm run zord"
+    },
+    "author": {
+        "name": "Alex Stevovich",
+        "email": "alex.stevovich@gmail.com",
+        "url": "https://alexstevovich.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alexstevovich/lydio.git"
+    },
+    "license": "UNLICENSED",
+    "private": true,
+    "keywords": [
+        "lydio",
+        "html",
+        "generator",
+        "templating",
+        "javascript",
+        "fluent",
+        "dom",
+        "markup",
+        "structured-html",
+        "web",
+        "frontend",
+        "web-components",
+        "ui-library",
+        "tag-based",
+        "self-closing",
+        "dynamic-html"
+    ],
+    "devDependencies": {
+        "@eslint/js": "^9.22.0",
+        "eslint": "^9.21.0",
+        "eslint-plugin-prettier": "^5.2.3",
+        "markdownlint": "^0.37.4",
+        "markdownlint-cli": "^0.44.0",
+        "prettier": "^3.5.3",
+        "vitest": "^3.0.8"
+    }
+}
